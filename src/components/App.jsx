@@ -5,7 +5,7 @@ import Section from './sections/Sections';
 import Form from './form/Form';
 import Filter from './filter/Filter';
 import Contacts from './contacts/Contacts';
-import { fetchContacts } from 'redux/operations';
+import { fetchContacts } from '../redux/operations';
 
 import css from './App.module.css';
 

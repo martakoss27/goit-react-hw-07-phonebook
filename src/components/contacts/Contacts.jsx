@@ -5,7 +5,7 @@ import {
   selectIsLoading,
   selectError,
   selectVisibleContacts,
-} from 'redux/selectors';
+} from '../redux/selectors';
 
 import PropTypes from 'prop-types';
 import css from './Contacts.module.css';

@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { deleteContact, toggleBlocked } from 'redux/operations';
+import { deleteContact, toggleBlocked } from '../redux/operations';
 
 import PropTypes from 'prop-types';
 import css from './Contact.module.css';
