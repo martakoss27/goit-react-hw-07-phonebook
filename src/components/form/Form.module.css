@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #bf4f74;
+}
+.input {
+  border: 0;
+  height: 30px;
+  font-size: 17px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.btn {
+  font-size: 13px;
+
+  padding: 5px 10px;
+  border: 2px solid #bf4f74;
+  border-radius: 3px;
+  color: #bf4f74;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
