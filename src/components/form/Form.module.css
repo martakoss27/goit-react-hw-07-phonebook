@@ -27,6 +27,8 @@
   color: #bf4f74;
 
   &:hover {
+    background-color: #bf4f74;
+    color: white;
     cursor: pointer;
   }
 }

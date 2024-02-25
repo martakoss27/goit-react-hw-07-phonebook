@@ -25,7 +25,7 @@ function Contact({ contact }) {
           contact.blocked ? css.blocked : 'nonblocked'
         }`}
       >
-        {contact.number}
+        {contact.phone}
       </p>
       <div className={css.blockInfo}>
         <input
